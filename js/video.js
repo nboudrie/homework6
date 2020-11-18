@@ -55,5 +55,5 @@ document.querySelector("#old").addEventListener("click", function() {
 });
 
 document.querySelector("#original").addEventListener("click", function() {
-	document.getElementById("myVideo").className = "video"
+	document.getElementById("myVideo").classList.remove("oldTime");
 });
